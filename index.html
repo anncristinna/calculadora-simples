@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <section>
+        <div>
+            <input type="number" name="num1" id="num1">
+            <input type="number" name="num2" id="num2">
+          <ul>
+              <li>
+                <input type="button" value="Somar" onclick="somar()">
+              </li>
+              <li>
+                <input type="button" value="Subtrair" onclick="subtrair()">
+              </li>
+              <li>
+                <input type="button" value="Multiplicar" onclick="multiplicar()">
+              </li>
+              <li><input type="button" value="Dividir" onclick="dividir()"></li>
+          </ul>
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy;Anna Cristina</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
