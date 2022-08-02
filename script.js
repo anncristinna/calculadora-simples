@@ -42,6 +42,6 @@ function dividir(){
         window.alert('Preencha os campos!')
     } else {
         let divisao = Number(num1.value) / Number(num2.value)
-        res.innerHTML = `${divisao}`
+        res.innerHTML = `${divisao.toFixed(2)}`
     }
 }
